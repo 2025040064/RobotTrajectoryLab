@@ -1,0 +1,12 @@
+{
+  "success": true,
+  "phase": "ready",
+  "softwareVersion": "1.0.1",
+  "isDeployed": true,
+  "runtimeRoot": "C:\\Program Files\\MATLAB\\MATLAB Runtime\\R2025a",
+  "elapsed_s": 22.4905175,
+  "message": "",
+  "windowVisible": true,
+  "windowTitle": "RobotTrajectoryLab · 机器人运动轨迹研究工作台",
+  "guiAndTimerReleased": true
+}

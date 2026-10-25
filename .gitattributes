@@ -1,0 +1,15 @@
+* text=auto
+*.m text eol=lf
+*.md text eol=lf
+*.py text eol=lf
+*.cs text eol=lf
+*.json text eol=lf
+*.csv text eol=lf
+*.txt text eol=lf
+*.ps1 text eol=crlf
+*.cmd text eol=crlf
+*.pdf binary
+*.png binary
+*.mat binary
+*.exe binary
+*.zip binary

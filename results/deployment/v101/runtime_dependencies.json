@@ -1,0 +1,30 @@
+{
+  "required": [
+    {
+      "DisplayName": "MATLAB Extended Runtime Addon",
+      "ID": 35000
+    },
+    {
+      "DisplayName": "MATLAB Graphics Runtime Addon",
+      "ID": 35002
+    },
+    {
+      "DisplayName": "MATLAB Standard Runtime Addon",
+      "ID": 35003
+    },
+    {
+      "DisplayName": "MATLAB Base Runtime",
+      "ID": 35010
+    },
+    {
+      "DisplayName": "Robotics System Toolbox Runtime Addon",
+      "ID": 35242
+    },
+    {
+      "DisplayName": "Navigation Toolbox Runtime Addon",
+      "ID": 35276
+    }
+  ],
+  "optional": [],
+  "selectedOptionalDependencies": "none"
+}

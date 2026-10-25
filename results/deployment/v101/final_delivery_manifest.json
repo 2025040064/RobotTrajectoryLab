@@ -1,0 +1,18 @@
+{
+  "RobotTrajectoryLab_Setup.exe": {
+    "bytes": 3539968,
+    "sha256": "f652c721e78a5e856f048875f82d863299d75d18b38e21cfed73dd81d9ccb7bc"
+  },
+  "RobotTrajectoryLab_Uninstall.exe": {
+    "bytes": 12288,
+    "sha256": "a1eafec9663e21d0786257055aaaceb3d0ea0d8c0593f43ab2f5b6f35b02a1c2"
+  },
+  "使用说明.pdf": {
+    "bytes": 433710,
+    "sha256": "bf7647b6492f22f949f19ddbd7074fb10eec563bd857e48e72f1f2e567559022"
+  },
+  "技术要点与创新点.pdf": {
+    "bytes": 274049,
+    "sha256": "c7368e32eea49180a43772dff7f14c9f9d4451254e67f0ecb58a7a76b6075373"
+  }
+}

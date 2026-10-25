@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "isDeployed": true,
+  "version": "25.1.0.2943329 (R2025a)",
+  "release": "2025a",
+  "runtimeRoot": "C:\\Program Files\\MATLAB\\MATLAB Runtime\\R2025a",
+  "softwareVersion": "1.0.1",
+  "mode": "--gui-smoke",
+  "message": "UR5, time scaling, A*, MAT/CSV round-trip passed.",
+  "armDuration_s": 3,
+  "scaledDuration_s": 1.3160740142685665,
+  "mobilePathLength_m": 7.8122494507582179,
+  "guiAndTimerReleased": true
+}

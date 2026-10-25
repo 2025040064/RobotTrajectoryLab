@@ -1,0 +1,37 @@
+# Local build and release output (published as GitHub Release assets).
+/build/
+/dist/
+/logs/
+/RobotTrajectoryLab_Data/
+/assets/models/*.mat
+
+# Keep reproducible examples and selected validation evidence.
+/results/*
+!/results/examples/
+!/results/validation/
+!/results/deployment/
+/results/validation/*
+!/results/validation/test_results.csv
+!/results/validation/screenshots/
+/results/deployment/*
+!/results/deployment/v101/
+/experiments/*
+!/experiments/README.md
+!/experiments/example_project.mat
+
+# MATLAB, Python and editor temporary files.
+*.asv
+*.m~
+*.autosave
+*.log
+__pycache__/
+*.py[cod]
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+.env
+.env.*
+*.pem
+*.key

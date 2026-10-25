@@ -17,7 +17,7 @@
 
 本版修复旧版启动时显示黑色终端的问题，增加图形启动器与运行库自动定位。附件 `RobotTrajectoryLab_Uninstall.exe` 为 12 KB 的卸载入口，可分别打开软件和运行库官方卸载向导；运行库是共享组件，卸载后依赖它的程序将无法运行。卸载入口本身不会删除实验数据。
 
-附件同时提供 `使用说明.pdf` 和 `技术要点与创新点.pdf`，下载后放在同一文件夹即可，无需另行解压。GitHub 自动生成的 Source code 文件用于获取源码。
+附件同时提供 `RobotTrajectoryLab_UserGuide.pdf`（使用说明）和 `RobotTrajectoryLab_TechnicalNotes.pdf`（技术要点与创新点），下载后放在同一文件夹即可，无需另行解压。GitHub 自动生成的 Source code 文件用于获取源码。本地交付文件夹中的两份 PDF 保留中文文件名，内容与线上附件一致。
 
 ## 验证与限制
 

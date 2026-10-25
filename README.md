@@ -8,12 +8,14 @@
 
 - `RobotTrajectoryLab_Setup.exe`：Windows x64 在线安装程序，约 3.4 MB。
 - `RobotTrajectoryLab_Uninstall.exe`：独立卸载入口，12 KB，分别打开软件与运行库的官方卸载向导。
-- `使用说明.pdf`：安装、操作流程与常见问题。
-- `技术要点与创新点.pdf`：实现方法、课程特色、实测指标与能力边界。
+- `RobotTrajectoryLab_UserGuide.pdf`：中文使用说明，包含安装、操作流程与常见问题。
+- `RobotTrajectoryLab_TechnicalNotes.pdf`：中文技术要点与创新点，包含实现方法、实测指标与能力边界。
 
 运行安装程序后，从桌面或开始菜单启动软件。首次需要联网安装 **MATLAB Runtime R2025a**；运行库不包含在上述小安装器内，下载量与安装占用会明显大于安装器。已安装对应运行库时可以复用，无须安装 MATLAB 开发环境。首次启动初始化可能需要一分钟左右。
 
 程序通过 Windows 图形入口自动定位 Runtime 并显示加载进度；项目、结果与日志默认保存在用户主目录的 `RobotTrajectoryLab_Data/`。本地未压缩交付文件夹为 `dist/RobotTrajectoryLab_安装程序与文档/`，构建产物通过 Release 提供，不纳入源码仓库。
+
+GitHub 附件采用英文文件名和中文显示名；本地交付文件夹保留 `使用说明.pdf` 与 `技术要点与创新点.pdf`，文件内容相同。
 
 ## 界面预览
 

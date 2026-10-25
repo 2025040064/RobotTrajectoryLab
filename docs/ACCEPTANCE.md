@@ -108,3 +108,11 @@ outputs = run_examples;            % 三个可复现实验并真实导出
 新增 `packaging/WindowsUninstaller.cs` 和 `packaging/build_uninstaller.ps1`，生成 `RobotTrajectoryLab_Uninstall.exe`，与安装器和两份 PDF 放在同一未压缩交付目录。使用 Windows 自带 .NET Framework 编译，Windows GUI Subsystem=2，不需要 MATLAB Runtime 即可打开。
 
 本机只读发现确认 RobotTrajectoryLab 1.0.1 安装于 `E:\tool`，官方卸载器为其 `uninstall\bin\win64\Uninstall_Application.exe`；MATLAB Runtime R2025a 官方卸载器亦存在。路径来自注册表，不固定开发机路径。命令解析覆盖带引号、空格、参数及非法命令；界面已渲染复核。证据为 `results/deployment/v101/uninstaller_validation.txt` 与 `uninstaller_window.png`。未启动任何实际卸载，不能声称已验证卸载完成；运行库须由用户单独选择，入口不会删除实验数据。
+
+## GitHub 发布与清理（2026-10-25）
+
+工程已接续远端初始提交推送至 `2025040064/RobotTrajectoryLab` 的 main，正式发布标签为 `v1.0.1`。提交前核对 99 个源码/示例/文档与选定证据文件，19 个 PDF、PNG、MAT 二进制文件与本地原文件逐字节一致；缓存、dist、历史运行、日志及 .env 未纳入提交，常见密钥特征扫描未发现匹配。
+
+第一次提交检查将 PDF 误当文本，并报告验收文档末尾空行；已配置二进制属性与规范换行后通过检查。Release 上传时 GitHub 改写中文附件名，已改用英文文件名与中文显示名；一次连接发生 TLS 断连，重试后核对正式版本标签并清理临时草稿。最终四个附件均通过公开下载、字节数和 SHA-256 检查，与 `final_delivery_manifest.json` 的本地文件内容一致。
+
+发布后按用户授权清理 14 项旧版重复打包文件/目录与构建中间目录，共 34,895,217 字节；当前未压缩交付目录保留安装器、卸载器与两份 PDF。保留实验、原验收证据和源码。发布检查未重跑 MATLAB 算法回归，51/51 为上述既有 R2025a 实测结果。

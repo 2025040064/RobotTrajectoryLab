@@ -25,3 +25,5 @@
 2026-10-25 最终要求：保留 MATLAB 开发、可接受 Runtime；修复黑终端与运行库定位，生成 1.0.1 图形安装版。最终以 dist/RobotTrajectoryLab_安装程序与文档 为唯一推荐交付目录，不压缩；目录含 RobotTrajectoryLab_Setup.exe、使用说明.pdf（4 页）、技术要点与创新点.pdf（3 页）。旧版本产物保留供追溯，不作为当前推荐下载。最新验证与限制见 ACCEPTANCE.md 的 1.0.1 节。
 
 2026-10-25 卸载补充：用户另要求提供卸载程序，交付目录增加 RobotTrajectoryLab_Uninstall.exe。该小程序不依赖 MATLAB Runtime；分别打开已注册的软件和 R2025a 运行库官方卸载向导，不自行删除文件。已验证当前安装位置 E:\tool 与运行库安装位置，完成命令解析和界面自检；未执行实际卸载。
+
+2026-10-25 发布完成：源码已推送至 https://github.com/2025040064/RobotTrajectoryLab ，正式 Release 为 v1.0.1。四个附件公开下载校验通过。随后清理旧版重复打包与 build 中间文件，保留当前未压缩交付目录、源码和实验/验收记录；发布与清理报告存于本地 results/publication/。完成本轮工作后停止。
